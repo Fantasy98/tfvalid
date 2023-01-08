@@ -78,8 +78,8 @@ def LoadTF(data_type,y_plus,var,target,normalized,root_path="/home/yuning/thesis
     import os
     import shutil
     import xarray as xr
-    save_loc=slice_loc(y_plus,var,target,normalized,root_path)
-
+    save_loc=slice_loc(y_plus,var,target,normalized,False,root_path)
+    print(f"Load data from {save_loc}")
     if not os.path.exists(save_loc):
         raise Exception("data does not exist. Make som new")
 

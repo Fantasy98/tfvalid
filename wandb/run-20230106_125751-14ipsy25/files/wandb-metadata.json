@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-135-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-01-06T11:57:52.150645",
+    "startedAt": "2023-01-06T11:57:51.489899",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "23-1-6_newcase.py",
+    "codePath": "23-1-6_newcase.py",
+    "git": {
+        "remote": "git@github.com:Fantasy98/tfvalid.git",
+        "commit": "e58ce9911029438ca7ffda4e7659c91e524e1293"
+    },
+    "email": "yuningw@kth.se",
+    "root": "/home/yuning/thesis/tfvalid",
+    "host": "pavilion",
+    "username": "yuning",
+    "executable": "/home/yuning/anaconda3/envs/tensor2/bin/python"
+}

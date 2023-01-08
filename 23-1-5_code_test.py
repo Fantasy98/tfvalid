@@ -33,4 +33,3 @@ for i in range(500):
     loss = hist.history["loss"]
     print(loss)
     loss_hist.append(loss)
-# %%

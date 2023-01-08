@@ -1,0 +1,71 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1673006132.040073
+    t:
+      1:
+      - 2
+      - 3
+      - 54
+      - 55
+      2:
+      - 2
+      - 3
+      - 54
+      - 55
+      3:
+      - 3
+      - 8
+      - 16
+      - 23
+      - 38
+      4: 3.8.13
+      5: 0.13.4
+      8:
+      - 5
+      10:
+      - 9
+batch_size:
+  desc: null
+  value: 2
+earlystopping_patience:
+  desc: null
+  value: 5
+epochs:
+  desc: null
+  value: 500
+height:
+  desc: null
+  value: 256
+init_learning_rate:
+  desc: null
+  value: 0.001
+loss_fn:
+  desc: null
+  value: mean_squared_error
+metrics:
+  desc: null
+  value:
+  - acc
+model_name:
+  desc: null
+  value: FCN_Skip_Padding
+monitor:
+  desc: null
+  value: val_loss
+optimizer:
+  desc: null
+  value: adam
+padding:
+  desc: null
+  value: 8
+width:
+  desc: null
+  value: 256

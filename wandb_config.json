@@ -1,0 +1,1 @@
+{"width": 256, "height": 256, "batch_size": 2, "padding": 8, "model_name": "FCN_Skip_Padding", "epochs": 500, "init_learning_rate": 0.001, "optimizer": "adam", "loss_fn": "mean_squared_error", "metrics": ["acc"], "monitor": "val_loss", "earlystopping_patience": 5}
